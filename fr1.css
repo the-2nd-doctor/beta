@@ -1,0 +1,126 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.containerf {
+    margin: 10px auto;
+    max-width: 1100px;
+    min-width: 85%;
+}
+a {
+    text-decoration: none;
+}
+.navf {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.navf ul {
+    margin: 0;
+}
+.navf ul li {
+    display: inline;
+    margin: 0;
+}
+.navf ul li a {
+    display: inline-block;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+.navf ul li a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.logo {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.shared-2 {
+    width: 50%;
+}
+.support-section {
+    justify-content: end;
+    display: inline;
+}
+.searchbar {
+    display: inline-block;
+    font-size: large;
+    font-weight: lighter;
+    border: 0;
+    padding: 0.2em 1em;
+    border-radius: 0.3em;
+}
+.buttonf {
+    display: inline-block;
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: auto;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0.3em;
+}
+.primary {
+    color: white;
+    background-color: royalblue;
+}
+.ordinary {
+    color: royalblue;
+    background-color: white;
+    border: 0.5px solid royalblue;
+}
+.intro {
+    text-align: center;
+    padding: 0 25px;
+}
+.intro h1 {
+    font-size: 3em;
+    font-weight: lighter;
+    margin: 0.3em;
+}
+.intro p {
+    font-size: 1.1em;
+    color: darkgrey;
+    margin-bottom: 2em;
+}
+.item-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.items {
+    width: 350px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 0.3em;
+}
+.item-primary {
+    border: 1px solid royalblue;
+}
+.item-title {
+    background-color: rgb(230, 230, 230);
+    padding: 0.5em 0;
+    font-size: x-large;
+    font-weight: 100;
+}.item-title-primary {
+    color: white;
+    background-color: royalblue;
+}
+.item-info {
+    text-align: center;
+    padding: 0.5em;
+}
+.item-info h1 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+.item-info span {
+    color: darkgrey;
+}
+.item-button {
+    width: 100%;
+}
